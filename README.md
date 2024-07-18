@@ -11,10 +11,10 @@ The goal of this notebook is to demonstrate how to manage large datasets and cre
 Gathering data related to smart contracts, possibly from blockchain transactions, smart contract code, or security audit reports.
 
 ### Risk Identification:
-Identifying specific risks associated with smart contracts, such as security vulnerabilities (e.g., reentrancy attacks, overflow/underflow, gas limit issues), performance issues, or compliance/legal risks.
+Identifying specific risks associated with smart contracts, such as security vulnerabilities.
 
 ### Frequency Analysis: 
-Analyzing how often each identified risk occurs within a dataset. This could involve statistical analysis to understand the prevalence of different types of risks.
+Analyzing how often each identified risk occurs within a dataset. 
 
 ### Reporting: 
 Generating reports or visualizations that highlight the most common risks associated with smart contracts, potentially offering insights into areas that need more attention or improvement.
