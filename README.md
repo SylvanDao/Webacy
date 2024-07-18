@@ -1,23 +1,26 @@
-# Webacy Externship
+**Collaborator:** Webacy  
 
-# Advanced Frequency Analysis of Smart Contract Risks
+**Objective:** Build knowledge, skills, and mindset to solve a data analytics challenge related to smart contract vulnerabilities.
 
-## Objective
-The goal of this notebook is to demonstrate how to manage large datasets and create dynamic visualizations for analyzing risk tag frequencies in smart contracts. It covers data loading, manipulation, and visualization using Python libraries such as `pandas`, `matplotlib`, and `seaborn`.
+## Program Structure
 
-## Scope
+### Week 1: Data Labeling
+- **Focus:** Understanding data labeling and its importance.
+- **Activities:** 
+  - Learn about Web3 and smart contracts.
+  - Identify and label smart contract vulnerabilities using predefined risk tags.
 
-### Data Collection: 
-Gathering data related to smart contracts, possibly from blockchain transactions, smart contract code, or security audit reports.
+### Week 2: Data Validation
+- **Focus:** Enhancing dataset reliability.
+- **Activities:** Validate the accuracy of data labels applied by peers.
 
-### Risk Identification:
-Identifying specific risks associated with smart contracts, such as security vulnerabilities.
+### Week 3: Frequency and Correlation Analysis
+- **Focus:** Building data analysis proficiency.
+- **Activities:**
+  - Analyze the frequency of each risk tag.
+  - Identify significant associations between different risk tags.
 
-### Frequency Analysis: 
-Analyzing how often each identified risk occurs within a dataset. 
-
-### Reporting: 
-Generating reports or visualizations that highlight the most common risks associated with smart contracts, potentially offering insights into areas that need more attention or improvement.
-
-## Note
-Added an option to use the uploaded `compiled_risk_data.xlsx` file instead of downloading it from Google Drive. If the file already exists in the repository, the download step can be skipped to save time and ensure consistent data usage.
+### Week 4: Risk Profiling
+- **Focus:** Advanced data analysis techniques.
+- **Activities:** 
+  - Perform cluster analysis to find common risk profiles among smart contracts.
