@@ -1,0 +1,44 @@
+## Observation
+
+1.1 Most Frequently Occurring Risk Tag:
+The tag "exploitation" was identified 468 times, making it the most frequently occurring risk tag in the dataset.
+
+1.2 Does This Make Sense?:
+Yes, this is expected. Exploitation refers to vulnerabilities that can be used by attackers to compromise smart contracts. Given the complex nature of smart contract code, such risks are prevalent and critical.
+
+1.3 Typical Handling by Companies:
+Security Audits: Companies often conduct thorough security audits of their smart contracts to identify and fix vulnerabilities before deployment.
+Bug Bounty Programs: Many organizations implement bug bounty programs to incentivize the community to find and report potential exploits.
+Code Reviews and Testing: Rigorous code reviews and extensive testing, including automated tools and manual inspections, are standard practices to mitigate exploitation risks.
+Upgradable Contracts: Some companies use upgradable smart contracts to patch vulnerabilities post-deployment.
+Best Practices: Following industry best practices for smart contract development and adhering to secure coding guidelines also helps in minimizing exploitation risks.
+
+
+2.1 Surprising Risk Tag Frequency:
+Unexpected Frequency: "External Dependencies" appeared more frequently than anticipated.
+
+2.2 Reason for Surprise:
+Reliance on external systems or contracts can introduce significant risks if these dependencies are compromised or fail. The higher frequency might indicate a vulnerability trend or poor implementation practices.
+
+2.3 Literature vs. Dataset:
+Existing literature often highlights common risks like exploitation, but may not emphasize external dependencies as heavily. The dataset’s higher frequency of this tag suggests a deviation from typical focus areas.
+
+2.4 Possible Reasons for High Frequency:
+Implementation Issues: Poorly managed dependencies or lack of due diligence in evaluating external systems.
+Vulnerability Exposure: Increased reliance on third-party components that might have vulnerabilities.
+Growing Complexity: As smart contracts integrate with more external services, the risk from these dependencies grows.
+
+2.5 Need for Further Investigation:
+Investigating the causes behind the high frequency of "external_dependencies" will help understand whether it reflects a systemic issue or specific case anomalies.
+
+3. Phi-Coefficient and Hidden Patterns
+The Phi-Coefficient between "hidden_owner" and "is_airdrop_scam" was 0.33, suggesting a moderate positive correlation.
+Not all airdrops are scams, and hidden owners can have valid reasons for their privacy.
+The correlation level indicates a potential link between hidden owners and airdrop scams.
+Understanding the correlations can help in assessing the legitimacy of smart contract features.
+
+4. Interconnected Risks in Smart Contracts
+"buy_tax" and "sell_tax" show a strong relationship.
+High transaction fees can be a headache for normal users.
+The Phi-Coefficient value of 0.7 suggests a significant correlation between the two risks.
+
