@@ -1,0 +1,31 @@
+1. Keywords to describe the results 
+Using 2-3 keywords, provide a sneek-peek into the result of the cluster analysis of the risk tags.
+
+4 distinct risk profiles identified
+Majority (535/1093) are low-risk
+349 high exploitation risk
+45 confirmed honeypots
+164 hidden owners with mixed risks
+---
+
+2. Result Overview
+In less than 5-7 bullet points, list the results from the cluster analysis of risk tags. In addition to the results, answer the following question: We recommendeded you to utilize Jaccard distance with hierarchical clustering for this dataset. Is there any distance metric other than Jaccard distance that you think could have been utilized here? Why?
+
+Four distinct clusters were identified, each with unique risk profiles.
+Cluster 1 shows low risk across all tags, potentially representing safe or low-risk entities.
+Cluster 2 is characterized by high exploitation risk but low risk in other categories.
+Cluster 3 exhibits high risk in both honeypot and exploitation categories.
+Cluster 4 primarily shows hidden owner risk, with moderate risk in other areas.
+
+Regarding alternative distance metrics:
+While Jaccard distance is appropriate for binary data, another suitable metric for this dataset could be the Hamming distance. The Hamming distance measures the number of positions at which corresponding values are different, which aligns well with the binary nature of the risk tags (0 or 1).
+Hamming distance could be beneficial here because:
+
+It's simple to interpret in the context of binary features.
+It treats each risk tag equally, which may be desirable if all risks are considered equally important.
+It can potentially highlight subtle differences between entities that have similar but not identical risk profiles.
+---
+
+3. Cluster Analysis Slide
+
+4. Link to the slide
