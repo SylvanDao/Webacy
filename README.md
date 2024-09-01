@@ -25,4 +25,7 @@
 - **Activities:** 
   - Perform cluster analysis to find common risk profiles among smart contracts.
 
-## Cluster Analysis_Tung Dao_Webacy.pdf
+## Cluster Analysis Preview
+[![PDF Preview](https://img.shields.io/badge/Preview-PDF-blue.svg)](Cluster%20Analysis_Tung%20Dao_Webacy.pdf)
+
+[Download the PDF](Cluster%20Analysis_Tung%20Dao_Webacy.pdf)
